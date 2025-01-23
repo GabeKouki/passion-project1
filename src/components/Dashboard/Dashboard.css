@@ -1,0 +1,45 @@
+.DashboardContainer {
+  width: 100%;
+  height: 100vh;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+}
+
+.DashboardTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.DashboardStats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.StatItem {
+  background-color: white;
+  border-radius: 8px;
+  height: 100px;
+  width: 250px;
+  text-align: center;
+}
+
+.StatItem h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.StatItem p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #121212;
+}
