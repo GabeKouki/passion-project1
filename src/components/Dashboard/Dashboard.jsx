@@ -10,9 +10,12 @@ const Dashboard = () => {
     completedTasks: 0,
   };
 
+  const todaysDateAndTime = new Date().toLocaleString();
+
   return (
     <div className="DashboardContainer">
       <h1 className="DashboardTitle">Welcome Back to Your Dashboard</h1>
+      <h1 className="DashboardTitle">Date: {todaysDateAndTime}</h1>
 
       {/*//! Quick Stats */}
       <div className="DashboardStats">
